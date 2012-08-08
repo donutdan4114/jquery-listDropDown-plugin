@@ -6,8 +6,9 @@ Contact:    me@danieljpepin.com
 
 What is it?
 -----------
-This plugin will allow you to convert a list to a dropdown.  
-The most common use for this will be to convert a menu list to a dropdown on smaller screens.  
+This plugin will allow you 	to convert a list to a dropdown.  
+The most common use for this will be to convert a menu list to a dropdown on smaller screens. 
+[Check out this jsFiddle](http://jsfiddle.net/vrwG4/4/). (resize the Result container to see how it works)
 
 How to use
 ----------
