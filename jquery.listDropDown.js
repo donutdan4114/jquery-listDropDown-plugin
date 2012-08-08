@@ -57,6 +57,9 @@
 			var dropdown = $('<select></select>');
 			// Transfer all attributes to the new dropdown.
 			dropdown[0].attributes = obj[0].attributes;
+			if(obj.data('null')){
+				dropdown.append('<option>'+ obj.data('null') +'</option>');
+			}
 			// Generate options from list items.
 			list_items.each(function(i, val){
 				dropdown.append('<option>'+ $(val).text() +'</option>');
@@ -66,6 +69,9 @@
 					dropdown.children('option').eq(i).attr('value', $(val).text());
 				}
 			});
+			
+			dropdown.children('option').eq(obj.data('selected')).attr('selected', true);
+
 			dropdown.addClass('toDropDown dropdown');
 			listDropDown.dropdown = dropdown;
 			obj.replaceWith(listDropDown.dropdown);

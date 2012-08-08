@@ -52,7 +52,15 @@ This will become:
       <option value='939483'>Tim</li>
     </select>
 
-If you don't specify the **data-value** attribute, the text from the list will be used as the value.
+If you don't specify the **data-value** attribute, the text from the list will be used as the value.    
+  
+You can also specify a **data-selected** on your list to change the default selected index. 
+
+    <ul data-selected='3'> ... </ul>
+
+You can also specify a **data-null** on your list to have a null first item.
+
+    <ul data-null='-- Select a user --'> ... </ul>
 
 
 
