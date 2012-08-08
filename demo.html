@@ -1,0 +1,30 @@
+<html>
+
+	<head>
+		<script type='text/javascript' src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js'></script>
+		<script type='text/javascript' src='jquery.listDropDown.js'></script>
+
+		<!-- DEMO JAVASCRIPT -->
+		<script type='text/javascript'>
+			$(document).ready(function(){
+
+				$('ul.toDropDown').listDropDown({minWidth:1000});
+
+			});
+		</script>
+
+	</head>
+
+	<body>
+		Try shrinking the screen down:
+
+		<ul class='toDropDown'>
+			<li data-value='one'>item one</li>
+			<li data-value='two'>item two</li>
+			<li data-value='three'>item three</li>
+			<li data-value='four'>item four</li>
+		</ul>
+
+	</body>
+
+</html>
