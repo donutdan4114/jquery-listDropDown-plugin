@@ -12,6 +12,7 @@ The most common use for this will be to convert a menu list to a dropdown on sma
 How to use
 ----------
 Simply call **.listDropDown()** on your list.
+
     $('my_list').listDropDown({settings});
 
 
@@ -24,10 +25,12 @@ Options
 Examples
 --------
 To enable the dropdown on mobile width, simply do:
+
     // Convert list to dropdown when browser is small than 500px.
     $('my_list').listDropDown({minWidth:500})
 
 To enable the dropdown when the browser width is over a certain size:
+
     // Convert list to dropdown when browser width is over 1000px.
     $('my_list').listDropDown({maxWidth:1000});
 
