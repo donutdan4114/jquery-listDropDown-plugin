@@ -6,7 +6,6 @@
 			'minWidth'     : false, // The minimum width the list should be converted.
 			'maxWidth'     : false, // The maxiumum width the list should be converted.
 			'interval'     : 250,   // The polling interval to check screen width.
-			'activate'     : false  // Activates the conversion instantly, no screen size polling.
 		}, options);
 
 
