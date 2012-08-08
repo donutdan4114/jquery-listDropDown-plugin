@@ -26,13 +26,33 @@ Examples
 --------
 To enable the dropdown on mobile width, simply do:
 
-    // Convert list to dropdown when browser is small than 500px.
+    // Convert list to dropdown when browser is smaller than 500px.
     $('my_list').listDropDown({minWidth:500})
 
 To enable the dropdown when the browser width is over a certain size:
 
     // Convert list to dropdown when browser width is over 1000px.
     $('my_list').listDropDown({maxWidth:1000});
+
+Advanced
+--------
+You can give custom values to your select options by specifying the **data-value** attribute.
+
+    <ul>
+      <li data-value='192003'>Dan</li>
+      <li data-value='193443'>Bob</li>
+      <li data-value='939483'>Tim</li>
+    </ul>
+
+This will become:
+
+    <select class='toDropDown dropdown'>
+      <option value='192003'>Dan</li>
+      <option value='193443'>Bob</li>
+      <option value='939483'>Tim</li>
+    </select>
+
+If you don't specify the **data-value** attribute, the text from the list will be used as the value.
 
 
 
