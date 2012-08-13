@@ -48,9 +48,9 @@ You can give custom values to your select options by specifying the **data-value
 This will become:
 
     <select class='toDropDown dropdown'>
-      <option value='192003'>Dan</li>
-      <option value='193443'>Bob</li>
-      <option value='939483'>Tim</li>
+      <option value='192003'>Dan</option>
+      <option value='193443'>Bob</option>
+      <option value='939483'>Tim</option>
     </select>
 
 If you don't specify the **data-value** attribute, the text from the list will be used as the value.    
